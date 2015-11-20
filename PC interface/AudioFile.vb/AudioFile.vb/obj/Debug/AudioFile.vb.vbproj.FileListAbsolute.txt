@@ -1,0 +1,13 @@
+F:\ELECTRONIC\2014\Back Up folder\VB\ACESS\AudioFile.vb\AudioFile.vb\obj\Debug\ResolveAssemblyReference.cache
+F:\ELECTRONIC\2014\Back Up folder\VB\ACESS\AudioFile.vb\AudioFile.vb\obj\Debug\WindowsApplication1.Form1.resources
+F:\ELECTRONIC\2014\Back Up folder\VB\ACESS\AudioFile.vb\AudioFile.vb\obj\Debug\WindowsApplication1.Resources.resources
+F:\ELECTRONIC\2014\Back Up folder\VB\ACESS\AudioFile.vb\AudioFile.vb\obj\Debug\AudioFile.vb.vbproj.GenerateResource.Cache
+F:\ELECTRONIC\2014\Back Up folder\VB\ACESS\AudioFile.vb\AudioFile.vb\bin\Debug\AudioFile.vb.exe
+F:\ELECTRONIC\2014\Back Up folder\VB\ACESS\AudioFile.vb\AudioFile.vb\bin\Debug\AudioFile.vb.pdb
+F:\ELECTRONIC\2014\Back Up folder\VB\ACESS\AudioFile.vb\AudioFile.vb\bin\Debug\AudioFile.vb.xml
+F:\ELECTRONIC\2014\Back Up folder\VB\ACESS\AudioFile.vb\AudioFile.vb\obj\Debug\AudioFile.vb.exe
+F:\ELECTRONIC\2014\Back Up folder\VB\ACESS\AudioFile.vb\AudioFile.vb\obj\Debug\AudioFile.vb.xml
+F:\ELECTRONIC\2014\Back Up folder\VB\ACESS\AudioFile.vb\AudioFile.vb\obj\Debug\AudioFile.vb.pdb
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\AudioFile.vb\AudioFile.vb\obj\Debug\AudioFile.vb.exe
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\AudioFile.vb\AudioFile.vb\obj\Debug\AudioFile.vb.xml
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\AudioFile.vb\AudioFile.vb\obj\Debug\AudioFile.vb.pdb

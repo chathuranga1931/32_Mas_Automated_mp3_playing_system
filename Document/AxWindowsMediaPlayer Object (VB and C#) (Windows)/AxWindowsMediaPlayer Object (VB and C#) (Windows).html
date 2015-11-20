@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<!-- saved from url=(0079)https://msdn.microsoft.com/en-us/library/windows/desktop/dd562388(v=vs.85).aspx -->
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="canonical" href="./AxWindowsMediaPlayer Object (VB and C#) (Windows)_files/AxWindowsMediaPlayer Object (VB and C#) (Windows).html">
+        <title>AxWindowsMediaPlayer Object (VB and C#) (Windows)</title>
+
+
+
+
+
+<meta name="DCS.dcsuri" content="/en-us/library/windows/desktop/dd562388(d=default,l=en-us,v=vs.85).aspx">
+
+<meta name="NormalizedUrl" content="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562388(d=default,l=en-us,v=vs.85).aspx">
+
+<meta name="ms.normalizedurl" content="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562388(d=default,l=en-us,v=vs.85).aspx">
+
+<meta name="VotingContextUrl" content="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562388(d=default,l=en-us,v=vs.85).aspx">
+
+<meta name="MN" content="EE4293C5-12:04:25 PM">
+
+<meta name="Search.ShortId" content="dd562388">
+
+<meta name="ms.shortidmsdn" content="dd562388">
+
+<meta name="Ms.Locale" content="en-us">
+
+<meta name="ms.prodver" content="VS.85">
+
+<meta name="ms.contentlang" content="EN">
+
+<meta name="ms.lang" content="EN">
+
+<meta name="ms.loc" content="US">
+
+<meta name="ms.sitever" content="2015.02.26.3">
+
+<meta name="ms.assetid" content="d7eeac20-1afa-4e73-9af6-9772fbb65516">
+
+<meta name="ms.auth" content="0">
+
+
+
+
+
+
+
+
+        
+    <link rel="shortcut icon" href="https://msdn.microsoft.com/Areas/Epx/Themes/Windows/Content/Winlogo_favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="./AxWindowsMediaPlayer Object (VB and C#) (Windows)_files/Combined.css"><script type="text/javascript" async="" src="./AxWindowsMediaPlayer Object (VB and C#) (Windows)_files/ms.js"></script><script type="text/javascript" src="./AxWindowsMediaPlayer Object (VB and C#) (Windows)_files/ai.js" async=""></script><script class="mtps-injected">try {
+/**/
+(window.MTPS || (window.MTPS = {})).cdnDomains || (window.MTPS.cdnDomains = { 
+	"image": "https://i-msdn.sec.s-msft.com", 
+	"js": "https://i2-msdn.sec.s-msft.com", 
+	"css": "https://i-msdn.sec.s-msft.com", 
+	"xap": "https://i-vso.sec.s-msft.com"
+});
+/**/
+} finally { MTPS._injectNextScript_0 && MTPS._injectNextScript_0(); }</script><script class="mtps-injected" src="./AxWindowsMediaPlayer Object (VB and C#) (Windows)_files/jquery-1.8.2.min.js"></script><script class="mtps-injected">try {
+//
+  var literalNormalizedUrl = '/en-us/library/windows/desktop/dd562388(l=en-us,v=vs.85).aspx';
+  var wt_nvr_ru = 'WT_NVR_RU';
+  var wt_fpcdom = '.microsoft.com';
+  var wt_domlist = 'msdn.microsoft.com';
+  var wt_pathlist = '';
+  var wt_paramlist = 'DCSext.mtps_devcenter';
+  var wt_siteid = 'MSDN';
+  var gDomain = 'm.webtrends.com';
+  var gDcsId = 'dcsmgru7m99k7mqmgrhudo0k8_8c6m';
+  var gFpc = 'WT_FPC';
+
+
+
+  if (document.cookie.indexOf(gFpc + "=") == -1) {
+    var wtidJs = document.createElement("script");
+    wtidJs.src = "//" + gDomain + "/" + gDcsId + "/wtid.js";
+    document.getElementsByTagName("head")[0].appendChild(wtidJs);
+  }
+
+
+
+  var detectedLocale = 'en-us';
+  var wtsp = '_msdn_';
+  var gTrackEvents = '0';
+/**/
+} finally { MTPS._injectNextScript_2 && MTPS._injectNextScript_2(); }</script><script class="mtps-injected">try {
+/**/
+  var omni_guid = "aa1e6935-26bb-4755-95a4-5df6a05b8b4f";
+/**/
+} finally { MTPS._injectNextScript_3 && MTPS._injectNextScript_3(); }</script><script class="mtps-injected">try {
+//
+
+            window.appInsightsId = '60854590-027a-4ae4-98be-2741a40f355f';
+            //
+} finally { MTPS._injectNextScript_4 && MTPS._injectNextScript_4(); }</script><script class="mtps-injected" src="./AxWindowsMediaPlayer Object (VB and C#) (Windows)_files/Combined.js"></script><meta name="ms.Center" content="windows desktop"><meta name="ms.Section" content="windows desktop: learn"><meta name="ms.ShortId" content="dd562388"><meta name="ms.TOC" content="windows desktop: learn: dd562388"><script class="mtps-injected" src="./AxWindowsMediaPlayer Object (VB and C#) (Windows)_files/SearchBox.jss"></script><script class="mtps-injected" src="./AxWindowsMediaPlayer Object (VB and C#) (Windows)_files/TocDropDown.js"></script><script class="mtps-injected" src="./AxWindowsMediaPlayer Object (VB and C#) (Windows)_files/jquery.tmpl.min.js"></script><script class="mtps-injected" src="./AxWindowsMediaPlayer Object (VB and C#) (Windows)_files/Combined(1).js"></script><script src="./AxWindowsMediaPlayer Object (VB and C#) (Windows)_files/broker.js"></script><script class="mtps-injected">try {
+$(document).ready(function() {
+        try {
+            var token = $("#globalRequestVerification input[name='__RequestVerificationToken']").clone();
+            $("#siteFeedbackForm").append(token);
+        } catch(err) {
+            
+        }
+    });
+} finally { MTPS._injectNextScript_10 && MTPS._injectNextScript_10(); }</script><link href="./AxWindowsMediaPlayer Object (VB and C#) (Windows)_files/PrintView.css" rel="stylesheet" type="text/css" media="print"></head>
+    <body class="library Chrome">
+        <div id="page">
+            
+
+            
+            
+            
+
+    
+
+        <div id="ux-header" class="ltr en-us">
+            <div id="headerContainer">
+                <div id="logoAndSearchBox">
+                    <div id="logo">
+                        <a href="https://msdn.microsoft.com/windows/desktop" title="Windows"><img alt="Windows" src="./AxWindowsMediaPlayer Object (VB and C#) (Windows)_files/Windows_logo.png"></a>
+                    </div>
+        <div id="selectedTab">
+            <a class="dropDownToggle" href="javascript:void(0);">Dev Center - Desktop</a>    
+        </div>
+    <div id="toclevel1_menu" style="display: none; left: 125px; top: 57px;">
+        <ul>
+                <li><a href="https://dev.windows.com/" title="Windows">Windows</a></li>
+                <li><a href="https://msdn.microsoft.com/windows/desktop/" title="Desktop">Desktop</a></li>
+                <li><a href="https://msdn.microsoft.com/windows/hardware/" title="Hardware">Hardware</a></li>
+                <li><a href="https://msdn.microsoft.com/ie/" title="Internet Explorer">Internet Explorer</a></li>
+        </ul>
+        <div style="clear: both"></div>
+    </div> 
+                    
+
+    <div class="SearchBox">   
+        <form id="HeaderSearchForm" name="HeaderSearchForm" method="get" onsubmit="return Epx.Controls.SearchBox.searchBoxOnSubmit(this);">
+        <input id="HeaderSearchTextBox" name="query" type="text" maxlength="200" onfocus="Epx.Controls.SearchBox.watermarkFocus(event, this.title)" onblur="Epx.Controls.SearchBox.watermarkBlur(event, this.title)" autocomplete="off">            
+        <button id="HeaderSearchButton" value="" type="submit" class="header-search-button" title="Search"></button>
+        <div id="SearchFlyoutContainer" style="display: none; text-align: left; border: 1px solid buttonshadow; position: absolute; z-index: 1000; padding: 2px; color: rgb(0, 0, 0); font-family: &#39;Segoe UI&#39;, &#39;Lucida Grande&#39;, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);"><div id="SuggestionContainer"><ul style="list-style: none; padding: 4px 2px 0px 1px; cursor: pointer; margin: 1px; white-space: nowrap;"></ul></div></div></form>
+         
+            
+             
+    
+    </div>
+
+                    <div class="Clear"></div>
+                </div>
+                <div class="Clear"></div>
+                <div class="ux-internav">
+    <div class="toclevel2"> 
+            <a class="normal" href="https://sysdev.microsoft.com/en-us/desktop/" title="Dashboard">Dashboard</a>
+            <a class="normal" href="https://msdn.microsoft.com/windows/desktop/bg161546.aspx" title="Get started">Get started</a>
+            <a class="normal" href="https://msdn.microsoft.com/windows/desktop/aa511258.aspx" title="Design">Design</a>
+            <a class="active" href="https://msdn.microsoft.com/windows/desktop/aa904962.aspx" title="Develop">Develop</a>
+            <a class="normal" href="https://msdn.microsoft.com/windows/desktop/dn553326.aspx" title="Test and deploy">Test and deploy</a>
+            <a class="normal" href="https://msdn.microsoft.com/windows/desktop/jj134964.aspx" title="Certify">Certify</a>
+    </div>
+    <div class="clear"></div>
+                </div>
+                <div id="signIn">
+
+<a class="scarabLink" href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=12&ct=1426532665&rver=6.0.5276.0&wp=MCMBI&wlcxt=MSDN%24MSDN%24MSDN&wreply=https%3a%2f%2fmsdn.microsoft.com%2fen-us%2flibrary%2fwindows%2fdesktop%2fdd562388%2528v%3dvs.85%2529.aspx&lc=1033&id=254354&mkt=en-US" title="Sign in">Sign in</a></div>
+
+    
+
+            </div>
+            <div id="blackBar">
+    <div class="toclevel3"> 
+            <a class="active" href="https://msdn.microsoft.com/en-us/library/windows/desktop/bg126469.aspx" title="Desktop technologies" style="opacity: 1; left: 0px;">Desktop technologies</a>
+            <a class="normal" href="https://msdn.microsoft.com/en-us/library/windows/desktop/bg125390.aspx" title="Server and system " style="opacity: 1; left: 0px;">Server and system </a>
+            <a class="normal" href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh920508(vs.85).aspx" title="API index" style="opacity: 1; left: 0px;">API index</a>
+            <a class="normal" href="http://code.msdn.microsoft.com/windowsdesktop/" title="Samples" style="opacity: 1; left: 0px;">Samples</a>
+            <a class="normal" href="https://msdn.microsoft.com/windows/desktop/aa904945.aspx" title="Community" style="opacity: 1; left: 0px;">Community</a>
+    </div>
+    <div class="clear"></div>
+            </div>
+        </div>
+
+
+
+            <div id="body">
+                
+
+
+
+
+
+
+
+    <div id="leftNav" style="height: auto;">
+
+
+
+<div id="tocnav" style="">
+
+            <div class="toclevel0" data-toclevel="0" style="padding-left: 0px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562388(v=vs.85).aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/windows/desktop/ee663260(v=vs.85).aspx" id="bg126512_VS.85_en-us" mtpsaliasid="" mtpsassetid="30595274-5234-4722-ac4e-4471b4d8dae2_VS.85_en-us" mtpsshortid="ee663260_VS.85_en-us" title="Audio and Video">Audio and Video</a>            </div>
+            <div class="toclevel0" data-toclevel="0" style="padding-left: 0px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562388(v=vs.85).aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd758070(v=vs.85).aspx" id="dd565062_VS.85_en-us" mtpsaliasid="" mtpsassetid="10e3995f-1528-4895-a0f7-d60f2449afc0_VS.85_en-us" mtpsshortid="dd758070_VS.85_en-us" title="Windows Media Player SDK">Windows Media Player SDK</a>            </div>
+            <div class="toclevel0" data-toclevel="0" style="padding-left: 0px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562388(v=vs.85).aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd564679(v=vs.85).aspx" id="dd565068_VS.85_en-us" mtpsaliasid="" mtpsassetid="386ed03a-6c43-4637-ae45-7023a641b487_VS.85_en-us" mtpsshortid="dd564679_VS.85_en-us" title="Windows Media Player Object Model">Windows Media Player Object Model</a>            </div>
+            <div class="toclevel0" data-toclevel="0" style="padding-left: 0px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562388(v=vs.85).aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd564680(v=vs.85).aspx" id="dd565094_VS.85_en-us" mtpsaliasid="" mtpsassetid="af313b94-230b-47d7-a3ad-7e23b669886f_VS.85_en-us" mtpsshortid="dd564680_VS.85_en-us" title="Windows Media Player Object Model Reference">Windows Media Player Object Model Reference</a>            </div>
+            <div class="toclevel0" data-toclevel="0" style="padding-left: 0px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562388(v=vs.85).aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd563946(v=vs.85).aspx" id="dd565195_VS.85_en-us" mtpsaliasid="" mtpsassetid="81cd1f81-1bd2-420f-b20b-3505ad52f201_VS.85_en-us" mtpsshortid="dd563946_VS.85_en-us" title="Object Model Reference for Visual Basic .NET and C#">Object Model Reference for Visual Basic .NET and C#</a>            </div>
+            <div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true" style="padding-left: 13px;">
+<a class="toc_expanded" href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562388(v=vs.85).aspx#"></a><a data-tochassubtree="true" href="./AxWindowsMediaPlayer Object (VB and C#) (Windows)_files/AxWindowsMediaPlayer Object (VB and C#) (Windows).html" id="dd565197_VS.85_en-us" mtpsaliasid="" mtpsassetid="d7eeac20-1afa-4e73-9af6-9772fbb65516_VS.85_en-us" mtpsshortid="dd562388_VS.85_en-us" title="AxWindowsMediaPlayer Object (VB and C#)">AxWindowsMediaPlayer Object (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562389(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.AudioLanguageChange Event (VB and C#)">AxWindowsMediaPlayer.AudioLanguageChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562390(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.Buffering Event (VB and C#)">AxWindowsMediaPlayer.Buffering Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562391(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.CdromBurnError Event (VB and C#)">AxWindowsMediaPlayer.CdromBurnError Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562392(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.CdromBurnMediaError Event (VB and C#)">AxWindowsMediaPlayer.CdromBurnMediaError Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562393(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.CdromBurnStateChange Event (VB and C#)">AxWindowsMediaPlayer.CdromBurnStateChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562394(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.cdromCollection (VB and C#)">AxWindowsMediaPlayer.cdromCollection (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562395(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.CdromMediaChange Event (VB and C#)">AxWindowsMediaPlayer.CdromMediaChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562396(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.CdromRipMediaError Event (VB and C#)">AxWindowsMediaPlayer.CdromRipMediaError Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562397(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.CdromRipStateChange Event (VB and C#)">AxWindowsMediaPlayer.CdromRipStateChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562398(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.Click Event (VB and C#)">AxWindowsMediaPlayer.Click Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562399(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.close (VB and C#)">AxWindowsMediaPlayer.close (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562400(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.closedCaption (VB and C#)">AxWindowsMediaPlayer.closedCaption (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562401(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.Ctlcontrols (VB and C#)">AxWindowsMediaPlayer.Ctlcontrols (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562402(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.Ctlenabled (VB and C#)">AxWindowsMediaPlayer.Ctlenabled (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562403(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.CurrentItemChange Event (VB and C#)">AxWindowsMediaPlayer.CurrentItemChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562405(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.currentMedia (VB and C#)">AxWindowsMediaPlayer.currentMedia (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562404(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.CurrentMediaItemAvailable Event (VB and C#)">AxWindowsMediaPlayer.CurrentMediaItemAvailable Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562408(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.currentPlaylist (VB and C#)">AxWindowsMediaPlayer.currentPlaylist (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562406(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.CurrentPlaylistChange Event (VB and C#)">AxWindowsMediaPlayer.CurrentPlaylistChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562407(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.CurrentPlaylistItemAvailable Event (VB and C#)">AxWindowsMediaPlayer.CurrentPlaylistItemAvailable Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562409(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.Disconnect Event (VB and C#)">AxWindowsMediaPlayer.Disconnect Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562410(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.DomainChange Event (VB and C#)">AxWindowsMediaPlayer.DomainChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562411(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.DoubleClick Event (VB and C#)">AxWindowsMediaPlayer.DoubleClick Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562412(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.DurationUnitChange Event (VB and C#)">AxWindowsMediaPlayer.DurationUnitChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562413(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.dvd (VB and C#)">AxWindowsMediaPlayer.dvd (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562414(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.enableContextMenu (VB and C#)">AxWindowsMediaPlayer.enableContextMenu (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562415(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.EndOfStream Event (VB and C#)">AxWindowsMediaPlayer.EndOfStream Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562417(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.Error (VB and C#)">AxWindowsMediaPlayer.Error (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562416(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.Error Event (VB and C#)">AxWindowsMediaPlayer.Error Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562418(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.FolderScanStateChange Event (VB and C#)">AxWindowsMediaPlayer.FolderScanStateChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562419(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.fullScreen (VB and C#)">AxWindowsMediaPlayer.fullScreen (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562420(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.isOnline (VB and C#)">AxWindowsMediaPlayer.isOnline (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562421(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.KeyDown Event (VB and C#)">AxWindowsMediaPlayer.KeyDown Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562422(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.KeyPress Event (VB and C#)">AxWindowsMediaPlayer.KeyPress Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562423(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.KeyUp Event (VB and C#)">AxWindowsMediaPlayer.KeyUp Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562424(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.launchURL (VB and C#)">AxWindowsMediaPlayer.launchURL (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562425(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.LibraryConnect Event (VB and C#)">AxWindowsMediaPlayer.LibraryConnect Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562426(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.LibraryDisconnect Event (VB and C#)">AxWindowsMediaPlayer.LibraryDisconnect Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562427(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.MarkerHit Event (VB and C#)">AxWindowsMediaPlayer.MarkerHit Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562428(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.MediaChange Event (VB and C#)">AxWindowsMediaPlayer.MediaChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562439(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.mediaCollection (VB and C#)">AxWindowsMediaPlayer.mediaCollection (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562429(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.MediaCollectionAttributeStringAdded Event (VB and C#)">AxWindowsMediaPlayer.MediaCollectionAttributeStringAdded Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562434(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.MediaCollectionAttributeStringChanged Event (VB and C#)">AxWindowsMediaPlayer.MediaCollectionAttributeStringChanged Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562435(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.MediaCollectionAttributeStringRemoved Event (VB and C#)">AxWindowsMediaPlayer.MediaCollectionAttributeStringRemoved Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562436(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.MediaCollectionChange Event (VB and C#)">AxWindowsMediaPlayer.MediaCollectionChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562437(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.MediaCollectionMediaAdded Event (VB and C#)">AxWindowsMediaPlayer.MediaCollectionMediaAdded Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562438(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.MediaCollectionMediaRemoved Event (VB and C#)">AxWindowsMediaPlayer.MediaCollectionMediaRemoved Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562440(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.MediaError Event (VB and C#)">AxWindowsMediaPlayer.MediaError Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562441(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.ModeChange Event (VB and C#)">AxWindowsMediaPlayer.ModeChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562442(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.MouseDown Event (VB and C#)">AxWindowsMediaPlayer.MouseDown Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562443(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.MouseMove Event (VB and C#)">AxWindowsMediaPlayer.MouseMove Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562445(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.MouseUp Event (VB and C#)">AxWindowsMediaPlayer.MouseUp Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562446(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.network (VB and C#)">AxWindowsMediaPlayer.network (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562447(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.newMedia (VB and C#)">AxWindowsMediaPlayer.newMedia (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562448(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.newPlaylist (VB and C#)">AxWindowsMediaPlayer.newPlaylist (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562449(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.NewStream Event (VB and C#)">AxWindowsMediaPlayer.NewStream Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562450(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.openPlayer (VB and C#)">AxWindowsMediaPlayer.openPlayer (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562451(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.OpenPlaylistSwitch Event (VB and C#)">AxWindowsMediaPlayer.OpenPlaylistSwitch Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562453(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.openState (VB and C#)">AxWindowsMediaPlayer.openState (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562452(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.OpenStateChange Event (VB and C#)">AxWindowsMediaPlayer.OpenStateChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562454(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.PlaylistChange Event (VB and C#)">AxWindowsMediaPlayer.PlaylistChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562459(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.playlistCollection (VB and C#)">AxWindowsMediaPlayer.playlistCollection (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562455(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.PlaylistCollectionChange Event (VB and C#)">AxWindowsMediaPlayer.PlaylistCollectionChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562456(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.PlaylistCollectionPlaylistAdded Event (VB and C#)">AxWindowsMediaPlayer.PlaylistCollectionPlaylistAdded Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562457(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.PlaylistCollectionPlaylistRemoved Event (VB and C#)">AxWindowsMediaPlayer.PlaylistCollectionPlaylistRemoved Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562458(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.PlaylistCollectionPlaylistSetAsDeleted Event (VB and C#)">AxWindowsMediaPlayer.PlaylistCollectionPlaylistSetAsDeleted Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562461(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.playState (VB and C#)">AxWindowsMediaPlayer.playState (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562460(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.PlayStateChange Event (VB and C#)">AxWindowsMediaPlayer.PlayStateChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562462(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.PositionChange Event (VB and C#)">AxWindowsMediaPlayer.PositionChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562463(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.ScriptCommand Event (VB and C#)">AxWindowsMediaPlayer.ScriptCommand Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562464(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.settings (VB and C#)">AxWindowsMediaPlayer.settings (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562466(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.status (VB and C#)">AxWindowsMediaPlayer.status (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562465(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.StatusChange Event (VB and C#)">AxWindowsMediaPlayer.StatusChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562467(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.stretchToFit (VB and C#)">AxWindowsMediaPlayer.stretchToFit (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562468(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.StringCollectionChange Event (VB and C#)">AxWindowsMediaPlayer.StringCollectionChange Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562469(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.uiMode (VB and C#)">AxWindowsMediaPlayer.uiMode (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562470(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.URL (VB and C#)">AxWindowsMediaPlayer.URL (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562471(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.versionInfo (VB and C#)">AxWindowsMediaPlayer.versionInfo (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562472(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.Warning Event (VB and C#)">AxWindowsMediaPlayer.Warning Event (VB and C#)</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 26px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562473(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AxWindowsMediaPlayer.windowlessVideo (VB and C#)">AxWindowsMediaPlayer.windowlessVideo (VB and C#)</a>            </div>
+</div>
+        
+
+        
+
+        
+        
+        <div id="toc-resizable-ew" class="toc-resizable-ew"></div>
+        
+    </div>
+<div id="content" class="content">
+
+
+
+
+
+
+
+        
+
+<div class="topic" xmlns="http://www.w3.org/1999/xhtml">
+  <h1 class="title">AxWindowsMediaPlayer Object (VB and C#)</h1>
+  
+  <div id="mainSection">
+<div class="clsServerSDKContent">
+
+</div>
+<p>The AxWindowsMediaPlayer object is the root object for the Windows Media Player control. It supports the properties, methods, and events listed in the following tables.</p>
+<p>The AxWindowsMediaPlayer object supports the following properties.</p>
+<table>
+<tbody><tr><th>
+              Property
+            </th><th>
+              Description
+            </th></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562394(v=vs.85).aspx">cdromCollection</a>
+</td><td>Gets an <strong>IWMPCdromCollection</strong> interface.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562400(v=vs.85).aspx">closedCaption</a>
+</td><td>Gets an IWMPClosedCaption interface.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562401(v=vs.85).aspx">Ctlcontrols</a>
+</td><td>Gets an IWMPControls interface.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562402(v=vs.85).aspx">Ctlenabled</a>
+</td><td>Gets or sets a value indicating whether the Windows Media Player control is enabled.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562405(v=vs.85).aspx">currentMedia</a>
+</td><td>Gets or sets the IWMPMedia interface that corresponds to the current media item.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562408(v=vs.85).aspx">currentPlaylist</a>
+</td><td>Gets or sets the current <strong>IWMPPlaylist</strong> interface.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562413(v=vs.85).aspx">dvd</a>
+</td><td>Gets an IWMPDVD interface.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562414(v=vs.85).aspx">enableContextMenu</a>
+</td><td>Gets or sets a value indicating whether to enable the context menu, which appears when the right mouse button is clicked.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562417(v=vs.85).aspx">Error</a>
+</td><td>Gets an IWMPError interface.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562419(v=vs.85).aspx">fullScreen</a>
+</td><td>Gets or sets a value indicating whether video content is played back in full-screen mode.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562420(v=vs.85).aspx">isOnline</a>
+</td><td>Gets a value indicating whether the user is connected to a network.</td></tr>
+<tr><td>isRemote</td><td>Not supported for .NET programming.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562439(v=vs.85).aspx">mediaCollection</a>
+</td><td>Gets an IWMPMediaCollection interface.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562446(v=vs.85).aspx">network</a>
+</td><td>Gets an IWMPNetwork interface.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562453(v=vs.85).aspx">openState</a>
+</td><td>Gets a value indicating the state of the content source.</td></tr>
+<tr><td>playerApplication</td><td>Not supported for .NET programming.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562459(v=vs.85).aspx">playlistCollection</a>
+</td><td>Gets an IWMPPlaylistCollection interface.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562461(v=vs.85).aspx">playState</a>
+</td><td>Gets a value indicating the state of the Windows Media Player operation.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562464(v=vs.85).aspx">settings</a>
+</td><td>Gets an IWMPSettings interface.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562466(v=vs.85).aspx">status</a>
+</td><td>Gets a value indicating the current status of Windows Media Player.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562467(v=vs.85).aspx">stretchToFit</a>
+</td><td>Gets or sets a value indicating whether video will stretch to fit size of the Windows Media Player control video display.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562469(v=vs.85).aspx">uiMode</a>
+</td><td>Gets or sets a value indicating which controls are shown in the user interface when Windows Media Player is embedded in a webpage.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562470(v=vs.85).aspx">URL</a>
+</td><td>Gets or sets the name of the clip to play.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562471(v=vs.85).aspx">versionInfo</a>
+</td><td>Gets a value that specifies the version of the Windows Media Player.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562473(v=vs.85).aspx">windowlessVideo</a>
+</td><td>Gets or sets a value indicating whether the Windows Media Player control renders video in windowless mode.</td></tr>
+</tbody></table>
+<p>&nbsp;</p>
+<p>The AxWindowsMediaPlayer object supports the following methods.</p>
+<table>
+<tbody><tr><th>
+              Method
+            </th><th>
+              Description
+            </th></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562399(v=vs.85).aspx">close</a>
+</td><td>Releases Windows Media Player resources.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562424(v=vs.85).aspx">launchURL</a>
+</td><td>Sends a URL to the user's default browser to be rendered.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562447(v=vs.85).aspx">newMedia</a>
+</td><td>Returns an IWMPMedia interface for a new media item.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562448(v=vs.85).aspx">newPlaylist</a>
+</td><td>returns an IWMPPlaylist interface for a new playlist.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562450(v=vs.85).aspx">openPlayer</a>
+</td><td>Opens Windows Media Player using the specified URL.</td></tr>
+</tbody></table>
+<p>&nbsp;</p>
+<p>The AxWindowsMediaPlayer object supports the following events.</p>
+<table>
+<tbody><tr><th>
+              Event
+            </th><th>
+              Description
+            </th></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562389(v=vs.85).aspx">AudioLanguageChange</a>
+</td><td>Occurs when the current audio language changes.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562390(v=vs.85).aspx">Buffering</a>
+</td><td>Occurs when the Windows Media Player control begins or ends buffering.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562391(v=vs.85).aspx">CdromBurnError</a>
+</td><td>Occurs when a generic error happens during a CD burning operation.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562392(v=vs.85).aspx">CdromBurnMediaError</a>
+</td><td>Occurs when an error happens while burning an individual media item to a CD.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562393(v=vs.85).aspx">CdromBurnStateChange</a>
+</td><td>Occurs when a CD burning operation changes state.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562395(v=vs.85).aspx">CdromMediaChange</a>
+</td><td>Occurs when a CD or DVD is inserted into or ejected from a CD or DVD drive.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562396(v=vs.85).aspx">CdromRipMediaError</a>
+</td><td>Occurs when an error happens while ripping an individual track from a CD.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562397(v=vs.85).aspx">CdromRipStateChange</a>
+</td><td>Occurs when a CD ripping operation changes state.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562398(v=vs.85).aspx">Click</a>
+</td><td>Occurs when the user clicks a mouse button.</td></tr>
+<tr><td>CreatePartnershipComplete</td><td>Not supported for .NET programming.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562403(v=vs.85).aspx">CurrentItemChange</a>
+</td><td>Occurs when <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd564737(v=vs.85).aspx">IWMPControls.currentItem</a> changes.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562404(v=vs.85).aspx">CurrentMediaItemAvailable</a>
+</td><td>Occurs when a graphic metadata item in the current media item becomes available.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562406(v=vs.85).aspx">CurrentPlaylistChange</a>
+</td><td>Occurs when something changes within the current playlist.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562407(v=vs.85).aspx">CurrentPlaylistItemAvailable</a>
+</td><td>Occurs when the current playlist item becomes available.</td></tr>
+<tr><td>DeviceConnect</td><td>Not supported for .NET programming.</td></tr>
+<tr><td>DeviceDisconnect</td><td>Not supported for .NET programming.</td></tr>
+<tr><td>DeviceStatusChange</td><td>Not supported for .NET programming.</td></tr>
+<tr><td>DeviceSyncError</td><td>Not supported for .NET programming.</td></tr>
+<tr><td>DeviceSyncStateChange</td><td>Not supported for .NET programming.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562409(v=vs.85).aspx">Disconnect</a>
+</td><td>Reserved for future use.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562410(v=vs.85).aspx">DomainChange</a>
+</td><td>Occurs when the DVD domain changes.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562411(v=vs.85).aspx">DoubleClick</a>
+</td><td>Occurs when the user double-clicks a mouse button.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562412(v=vs.85).aspx">DurationUnitChange</a>
+</td><td>Reserved for future use.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562415(v=vs.85).aspx">EndOfStream</a>
+</td><td>Reserved for future use.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562416(v=vs.85).aspx">Error</a>
+</td><td>Occurs when the Windows Media Player control has an error condition.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562418(v=vs.85).aspx">FolderScanStateChange</a>
+</td><td>Occurs when a folder monitoring operation changes state.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562421(v=vs.85).aspx">KeyDown</a>
+</td><td>Occurs when a key is pressed.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562422(v=vs.85).aspx">KeyPress</a>
+</td><td>Occurs when a key is pressed and then released.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562423(v=vs.85).aspx">KeyUp</a>
+</td><td>Occurs when a key is released.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562425(v=vs.85).aspx">LibraryConnect</a>
+</td><td>Occurs when a library becomes available.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562426(v=vs.85).aspx">LibraryDisconnect</a>
+</td><td>Occurs when a library is no longer available.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562427(v=vs.85).aspx">MarkerHit</a>
+</td><td>Occurs when a marker is reached.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562428(v=vs.85).aspx">MediaChange</a>
+</td><td>Occurs when a media item changes.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562429(v=vs.85).aspx">MediaCollectionAttributeStringAdded</a>
+</td><td>Occurs when an attribute value is added to the library.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562434(v=vs.85).aspx">MediaCollectionAttributeStringChanged</a>
+</td><td>Occurs when an attribute value in the library is changed.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562435(v=vs.85).aspx">MediaCollectionAttributeStringRemoved</a>
+</td><td>Occurs when an attribute value is removed from the library.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562436(v=vs.85).aspx">MediaCollectionChange</a>
+</td><td>Occurs when the media collection changes.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562437(v=vs.85).aspx">MediaCollectionMediaAdded</a>
+</td><td>Occurs when a media item is added to the local library.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562438(v=vs.85).aspx">MediaCollectionMediaRemoved</a>
+</td><td>Occurs when a media item is removed from the local library.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562440(v=vs.85).aspx">MediaError</a>
+</td><td>Occurs when the <strong>Media</strong> object has an error condition.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562441(v=vs.85).aspx">ModeChange</a>
+</td><td>Occurs when a mode of Windows Media Player is changed.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562442(v=vs.85).aspx">MouseDown</a>
+</td><td>Occurs when a mouse button is pressed.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562443(v=vs.85).aspx">MouseMove</a>
+</td><td>Occurs when the mouse pointer is moved.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562445(v=vs.85).aspx">MouseUp</a>
+</td><td>Occurs when a mouse button is released.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562449(v=vs.85).aspx">NewStream</a>
+</td><td>Reserved for future use.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562451(v=vs.85).aspx">OpenPlaylistSwitch</a>
+</td><td>Occurs when a title on a DVD begins playing.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562452(v=vs.85).aspx">OpenStateChange</a>
+</td><td>Occurs when the Windows Media Player control changes state.</td></tr>
+<tr><td>PlayerDockedStateChange</td><td>Not supported for .NET programming.</td></tr>
+<tr><td>PlayerReconnect</td><td>Not supported for .NET programming.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562454(v=vs.85).aspx">PlaylistChange</a>
+</td><td>Occurs when a playlist changes.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562455(v=vs.85).aspx">PlaylistCollectionChange</a>
+</td><td>Occurs when something changes in the playlist collection.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562456(v=vs.85).aspx">PlaylistCollectionPlaylistAdded</a>
+</td><td>Occurs when a playlist is added to the playlist collection.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562457(v=vs.85).aspx">PlaylistCollectionPlaylistRemoved</a>
+</td><td>Occurs when a playlist is removed from the playlist collection.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562458(v=vs.85).aspx">PlaylistCollectionPlaylistSetAsDeleted</a>
+</td><td>Reserved for future use.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562460(v=vs.85).aspx">PlayStateChange</a>
+</td><td>Occurs when the play state of the Windows Media Player control changes.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562462(v=vs.85).aspx">PositionChange</a>
+</td><td>Occurs when the current position of the media item has been changed.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562463(v=vs.85).aspx">ScriptCommand</a>
+</td><td>Occurs when a synchronized command or URL is received.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562465(v=vs.85).aspx">StatusChange</a>
+</td><td>Occurs when the <strong>status</strong> property changes value.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562468(v=vs.85).aspx">StringCollectionChange</a>
+</td><td>Occurs when a string collection changes.</td></tr>
+<tr><td>SwitchedToControl</td><td>Not supported for .NET programming.</td></tr>
+<tr><td>SwitchedToPlayerApplication</td><td>Not supported for .NET programming.</td></tr>
+<tr><td>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd562472(v=vs.85).aspx">Warning</a>
+</td><td>Reserved for future use.</td></tr>
+</tbody></table>
+<p>&nbsp;</p>
+<h2><a id="related_topics"></a>Related topics</h2>
+<dl>
+<dt>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd563069(v=vs.85).aspx"><strong xmlns="http://www.w3.org/1999/xhtml">Interfaces for Visual Basic .NET and C#</strong></a>
+</dt>
+<dt>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd563101(v=vs.85).aspx"><strong xmlns="http://www.w3.org/1999/xhtml">IWMPCdromCollection Interface (VB and C#)</strong></a>
+</dt>
+<dt>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd563129(v=vs.85).aspx"><strong xmlns="http://www.w3.org/1999/xhtml">IWMPClosedCaption Interface (VB and C#)</strong></a>
+</dt>
+<dt>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd563212(v=vs.85).aspx"><strong xmlns="http://www.w3.org/1999/xhtml">IWMPControls Interface (VB and C#)</strong></a>
+</dt>
+<dt>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd563252(v=vs.85).aspx"><strong xmlns="http://www.w3.org/1999/xhtml">IWMPDVD Interface (VB and C#)</strong></a>
+</dt>
+<dt>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd563288(v=vs.85).aspx"><strong xmlns="http://www.w3.org/1999/xhtml">IWMPError Interface (VB and C#)</strong></a>
+</dt>
+<dt>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd563450(v=vs.85).aspx"><strong xmlns="http://www.w3.org/1999/xhtml">IWMPMedia Interface (VB and C#)</strong></a>
+</dt>
+<dt>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd563423(v=vs.85).aspx"><strong xmlns="http://www.w3.org/1999/xhtml">IWMPMediaCollection Interface (VB and C#)</strong></a>
+</dt>
+<dt>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd563492(v=vs.85).aspx"><strong xmlns="http://www.w3.org/1999/xhtml">IWMPNetwork Interface (VB and C#)</strong></a>
+</dt>
+<dt>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd563581(v=vs.85).aspx"><strong xmlns="http://www.w3.org/1999/xhtml">IWMPPlaylist Interface (VB and C#)</strong></a>
+</dt>
+<dt>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd563560(v=vs.85).aspx"><strong xmlns="http://www.w3.org/1999/xhtml">IWMPPlaylistCollection Interface (VB and C#)</strong></a>
+</dt>
+<dt>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd563683(v=vs.85).aspx"><strong xmlns="http://www.w3.org/1999/xhtml">IWMPSettings Interface (VB and C#)</strong></a>
+</dt>
+<dt>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd563946(v=vs.85).aspx"><strong xmlns="http://www.w3.org/1999/xhtml">Object Model Reference for Visual Basic .NET and C#</strong></a>
+</dt>
+<dt>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd564878(v=vs.85).aspx"><strong xmlns="http://www.w3.org/1999/xhtml">WMPOpenState</strong></a>
+</dt>
+<dt>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd564881(v=vs.85).aspx"><strong xmlns="http://www.w3.org/1999/xhtml">WMPPlayState</strong></a>
+</dt>
+</dl>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+</div>
+
+
+    
+
+
+
+<script id="CommentTemplate" type="text/x-jquery-tmpl">
+    <div class="communityContentAnnotation">
+        <a name="${Index}"></a>
+        <h3>
+            ${Title}
+        </h3>
+        <div class="communityContentAnnotationBody">
+            {{html Body}}
+        </div>
+        <div class="communityContentAnnotationInfo">
+            <div class="communityContentAnnotationAvatarContainer">
+                <a href="${UserAvatar.Href}" title="${UserAvatar.ToolTip}" class="communityContentAnnotationAvatar"><img src="${UserAvatar.ImageUrl}" alt="${UserAvatar.ImageAltText}" width="34" height="34" /></a>
+            </div>
+            <div class="communityContentAnnotationUserDateContainer">
+                <div class="communityContentAnnotationUserContainer">
+                    <a href="${UserAvatar.Href}">
+                        ${User}
+                    </a>
+                </div>
+                <div class="communityContentAnnotationDateContainer">
+                    <span>${Date}</span>
+                    
+                    {{if EditLink}}
+                        <span>
+                            <a href="${EditLink.Href}" title="${EditLink.ToolTip}" class="communityContentCommentEditLink">${EditLink.Title}</a>
+                        </span>
+                    {{/if}}
+
+                    {{if DeleteLink}}
+                        <span>
+                            <a href="${DeleteLink.Href}" title="${DeleteLink.ToolTip}" class="communityContentDeleteLink">${DeleteLink.Title}</a>
+                        </span>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<div class="communityContentContainer">
+    <div id="CommunityContentHeader" class="communityContentHeader">
+        <div class="communityContentHeaderTitleContainer">
+            <h2>Community Additions</h2>
+                <a class="communityContentAddLink" href="https://msdn.microsoft.com/en-us/library/windows/desktop/community/add/dd562388(v=vs.85).aspx">
+                    <span class="communityContentAddButton" title="Add">
+                        ADD
+                    </span>
+                </a>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    
+    <div id="CommunityComments" data-url="/en-us/library/windows/desktop/community/comments/dd562388(v=vs.85).aspx"></div>
+</div>
+
+
+
+
+<div class="libraryMemberFilter">
+    <div class="filterContainer">
+        <span>Show:</span>
+        <label>
+            <input type="checkbox" class="libraryFilterInherited" checked="checked" value="Inherit">Inherited
+        </label>
+        <label>
+            <input type="checkbox" class="libraryFilterProtected" checked="checked" value="Protected">Protected
+        </label>
+    </div>
+</div>
+    
+<input type="hidden" id="libraryMemberFilterEmptyWarning" value="There are no members available with your current filter settings.">
+
+
+ 
+</div>
+
+
+
+
+            </div>
+            <div class="clear"></div>
+
+            
+    
+<input name="__RequestVerificationToken" type="hidden" value="PYbrfu2alRX3S3qAXAy0HmB1CxAdZVNp0AADuGWXu1wxPXDLwbalb6bSU5LHns5CiXOfNrL6oi5oiZjXVxqsldiBRqU1">
+<input id="ratingSubmitUrl" type="hidden" value="https://msdn.microsoft.com/en-us/library/feedback/add/dd562388(v=vs.85).aspx">
+<input id="isTopicRated" type="hidden" value="false">
+
+
+
+
+    
+
+
+    <div id="ux-footer" class="ltr">
+        
+            <div id="footerSock">
+                <div id="footerSockInner">
+                    <a name="feedback"></a>
+                    <div data-fragmentname="Survey" id="Fragment_Survey" xmlns="http://www.w3.org/1999/xhtml"></div>
+
+<div class="rating">
+    <div id="ratingSection1">
+        <div class="title">
+            Was this page helpful?
+        </div>
+        <div class="description">
+            Your feedback about this content is important.<br>Let us know what you think.
+        </div>
+        <div class="buttons">
+            <button class="button" id="ratingYes">Yes</button>
+            <button class="button" id="ratingNo">No</button>
+        </div>
+        <input id="ratingValue" type="hidden" value="">
+    </div>
+    <div id="ratingSection2">
+        <div class="title">
+            Additional feedback?
+        </div>
+        <textarea id="ratingText" rows="6" cols="" maxlength="1500"></textarea>
+        <div class="counter right">
+            <span id="feedbackTextCounter">1500</span> characters remaining
+        </div>
+        <div class="buttons left">
+            <button class="button" id="ratingSubmit">Submit</button>
+            <button class="button" id="ratingSkipThis">Skip this</button>
+        </div>
+    </div>
+    <div id="ratingSection3">
+        <div class="title">
+            Thank you!
+        </div>
+        <div class="description">
+            We appreciate your feedback.
+        </div>
+    </div>
+    
+    
+    <div id="contentFeedbackQAContainer" style="display: none;"></div>
+</div>
+    
+
+                    <div data-fragmentname="SockLinks" id="Fragment_SockLinks" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <ul class="links">
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?LinkId=317809" id="SockLinks_726_11" xmlns="http://www.w3.org/1999/xhtml">Find us on Facebook</a>
+      </li>
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?LinkId=317811" id="SockLinks_726_12" xmlns="http://www.w3.org/1999/xhtml">Follow us on Twitter</a>
+      </li>
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?linkid=393788" id="SockLinks_726_42" xmlns="http://www.w3.org/1999/xhtml">Read the blog</a>
+      </li>
+    </ul>
+  </div>
+</div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        <div id="footerContainer">
+            <div id="fourColumnFooter">
+                <div data-fragmentname="Column1" id="Fragment_Column1" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="ListOfLinkLists">
+    <div class="listItems">
+      
+      <div class="linkList" xmlns="http://www.w3.org/1999/xhtml">
+        <div class="linkListTitle">Centers</div>
+        <ul class="links">
+          <li>
+            <a href="https://dev.windows.com/" id="Column1_726_13" xmlns="http://www.w3.org/1999/xhtml">Windows Dev Center</a>
+          </li>
+          <li>
+            <a href="https://msdn.microsoft.com/windows/desktop" id="Column1_726_16" xmlns="http://www.w3.org/1999/xhtml">Desktop</a>
+          </li>
+          <li>
+            <a href="https://msdn.microsoft.com/windows/hardware" id="Column1_726_17" xmlns="http://www.w3.org/1999/xhtml">Hardware</a>
+          </li>
+          <li>
+            <a href="https://msdn.microsoft.com/ie" id="Column1_726_15" xmlns="http://www.w3.org/1999/xhtml">Internet Explorer</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>              
+                <div data-fragmentname="Column2" id="Fragment_Column2" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="ListOfLinkLists">
+    <div class="listItems">
+      
+      <div class="linkList" xmlns="http://www.w3.org/1999/xhtml">
+        <div class="linkListTitle">Related developer sites</div>
+        <ul class="links">
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=285622" id="Column2_726_18" xmlns="http://www.w3.org/1999/xhtml">Microsoft Connect</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=285623" id="Column2_726_19" xmlns="http://www.w3.org/1999/xhtml">.NET Framework</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=282089" id="Column2_726_20" xmlns="http://www.w3.org/1999/xhtml">Visual Studio</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=282087" id="Column2_726_22" xmlns="http://www.w3.org/1999/xhtml">Windows Server</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="linkList" xmlns="http://www.w3.org/1999/xhtml">
+        <div class="linkListTitle">Other Windows sites</div>
+        <ul class="links">
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=280294" id="Column2_726_23" xmlns="http://www.w3.org/1999/xhtml">Enterprise</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=280295" id="Column2_726_24" xmlns="http://www.w3.org/1999/xhtml">Small business</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=280296" id="Column2_726_25" xmlns="http://www.w3.org/1999/xhtml">Students</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=280297" id="Column2_726_26" xmlns="http://www.w3.org/1999/xhtml">Home users</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>              
+                <div data-fragmentname="Column3" id="Fragment_Column3" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="ListOfLinkLists">
+    <div class="listItems">
+      
+      <div class="linkList" xmlns="http://www.w3.org/1999/xhtml">
+        <div class="linkListTitle">Downloads</div>
+        <ul class="links">
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=267554" id="Column3_726_27" xmlns="http://www.w3.org/1999/xhtml">Windows 8.1</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=328183" id="Column3_726_28" xmlns="http://www.w3.org/1999/xhtml">Windows SDK</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=316619" id="Column3_726_29" xmlns="http://www.w3.org/1999/xhtml">Visual Studio Express 2013</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=285626" id="Column3_726_30" xmlns="http://www.w3.org/1999/xhtml">More downloads</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="linkList" xmlns="http://www.w3.org/1999/xhtml">
+        <div class="linkListTitle">Support</div>
+        <ul class="links">
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=285632" id="Column3_726_43" xmlns="http://www.w3.org/1999/xhtml">Forums</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=285633" id="Column3_726_44" xmlns="http://www.w3.org/1999/xhtml">More support options</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>              
+                <div data-fragmentname="Column4" id="Fragment_Column4" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="ListOfLinkLists">
+    <div class="listItems">
+      
+      <div class="linkList" xmlns="http://www.w3.org/1999/xhtml">
+        <div class="linkListTitle">Essentials</div>
+        <ul class="links">
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=285627" id="Column4_726_35" xmlns="http://www.w3.org/1999/xhtml">Windows APIs</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=285628" id="Column4_726_36" xmlns="http://www.w3.org/1999/xhtml">Samples</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=285629" id="Column4_726_37" xmlns="http://www.w3.org/1999/xhtml">Compatibility and certification</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=285630" id="Column4_726_45" xmlns="http://www.w3.org/1999/xhtml">Desktop dashboard</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="linkList" xmlns="http://www.w3.org/1999/xhtml">
+        <div class="linkListTitle">Stay connected</div>
+        <ul class="links">
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=285954" id="Column4_726_41" xmlns="http://www.w3.org/1999/xhtml">Microsoft events</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=313895" id="Column4_726_39" xmlns="http://www.w3.org/1999/xhtml">Building Apps for Windows Devices</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>              
+            </div>
+
+            <div id="baseFooterLogos">
+                <span class="microsoftlogo" title="Microsoft"></span>
+                <a href="https://msdn.microsoft.com/en-us" class="msdnlogo" title="MSDN"></a>
+            </div>
+        
+            <div id="baseFooter">
+                <div id="FooterCopyright">© 2015 Microsoft</div>
+                <div data-fragmentname="BaseFooter" id="Fragment_BaseFooter" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <ul class="links horizontal">
+      <li>
+        <a href="http://go.microsoft.com/fwlink/?LinkId=248681" id="BaseFooter_35351_3" xmlns="http://www.w3.org/1999/xhtml">Privacy and Cookies</a>
+      </li>
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?linkid=248155" id="BaseFooter_35351_1" xmlns="http://www.w3.org/1999/xhtml">Terms of Use</a>
+      </li>
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?linkid=248154" id="BaseFooter_35351_2" xmlns="http://www.w3.org/1999/xhtml">Trademarks</a>
+      </li>
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?LinkId=400453" id="BaseFooter_730_5" xmlns="http://www.w3.org/1999/xhtml">Site map</a>
+      </li>
+    </ul>
+  </div>
+</div>  
+                <div data-fragmentname="HelloText" id="Fragment_HelloText" xmlns="http://www.w3.org/1999/xhtml">Hello from Seattle.
+</div>  
+                        
+    
+    <span id="selectLocaleFromPopUp">
+        <div class="locale-selector" style="position: relative;">
+            <a class="current-locale" href="javascript:void(0)">
+                <span class="text">English</span>
+                <span class="gear"></span>
+            </a>
+            <div class="locale-selection-panel site-flag site-flag-lang" style="top: -245px; display: none;">
+                <div class="content">
+                    <table class="all-locales" cellspacing="0" autogeneratecolumns="false" allowpaging="false" allowsorting="false" style="border-collapse: collapse;">
+                        <tbody>
+                            <tr>
+
+
+                                    <td><a title="Deutsch" href="https://msdn.microsoft.com/?action=SelectLocale&currentLocale=en-us&newLocale=de-de&fromPage=/en-us/library/windows/desktop/dd562388(v=vs.85).aspx/" class="locale-link">Deutsch</a></td>
+                                    <td><a title="English" href="https://msdn.microsoft.com/?action=SelectLocale&currentLocale=en-us&newLocale=en-us&fromPage=/en-us/library/windows/desktop/dd562388(v=vs.85).aspx/" class="locale-link selected">English</a></td>
+                                    <td><a title="Español" href="https://msdn.microsoft.com/?action=SelectLocale&currentLocale=en-us&newLocale=es-es&fromPage=/en-us/library/windows/desktop/dd562388(v=vs.85).aspx/" class="locale-link">Español</a></td>
+                                    <td><a title="Français" href="https://msdn.microsoft.com/?action=SelectLocale&currentLocale=en-us&newLocale=fr-fr&fromPage=/en-us/library/windows/desktop/dd562388(v=vs.85).aspx/" class="locale-link">Français</a></td>
+                                        </tr><tr>
+                                    <td><a title="Italiano" href="https://msdn.microsoft.com/?action=SelectLocale&currentLocale=en-us&newLocale=it-it&fromPage=/en-us/library/windows/desktop/dd562388(v=vs.85).aspx/" class="locale-link">Italiano</a></td>
+                                    <td><a title="日本語" href="https://msdn.microsoft.com/?action=SelectLocale&currentLocale=en-us&newLocale=ja-jp&fromPage=/en-us/library/windows/desktop/dd562388(v=vs.85).aspx/" class="locale-link">日本語</a></td>
+                                    <td><a title="한국어" href="https://msdn.microsoft.com/?action=SelectLocale&currentLocale=en-us&newLocale=ko-kr&fromPage=/en-us/library/windows/desktop/dd562388(v=vs.85).aspx/" class="locale-link">한국어</a></td>
+                                    <td><a title="Português" href="https://msdn.microsoft.com/?action=SelectLocale&currentLocale=en-us&newLocale=pt-br&fromPage=/en-us/library/windows/desktop/dd562388(v=vs.85).aspx/" class="locale-link">Português</a></td>
+                                        </tr><tr class="last">
+                                    <td><a title="Pусский" href="https://msdn.microsoft.com/?action=SelectLocale&currentLocale=en-us&newLocale=ru-ru&fromPage=/en-us/library/windows/desktop/dd562388(v=vs.85).aspx/" class="locale-link">Pусский</a></td>
+                                    <td><a title="简体中文" href="https://msdn.microsoft.com/?action=SelectLocale&currentLocale=en-us&newLocale=zh-cn&fromPage=/en-us/library/windows/desktop/dd562388(v=vs.85).aspx/" class="locale-link">简体中文</a></td>
+                                    <td><a title="繁體中文" href="https://msdn.microsoft.com/?action=SelectLocale&currentLocale=en-us&newLocale=zh-tw&fromPage=/en-us/library/windows/desktop/dd562388(v=vs.85).aspx/" class="locale-link">繁體中文</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="arrow">
+                        &nbsp;</div>
+                </div>
+            </div>
+        </div>
+    </span>
+
+  
+                <link type="text/css" rel="stylesheet">
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div> 
+
+
+            <div class="footerPrintView">
+                <div class="footerCopyrightPrintView">© 2015 Microsoft</div>
+            </div>
+
+            
+            
+    
+
+
+
+            <input id="MtpsDevice" type="hidden" value="Default">
+
+
+<!--[CDATA[ Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft.  See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx. ]]-->
+
+            
+            
+            
+            
+            
+
+
+
+
+
+
+<noscript>&lt;div&gt;&lt;img alt="DCSIMG" id="Img1" width="1" height="1" src="https://m.webtrends.com/dcsmgru7m99k7mqmgrhudo0k8_8c6m/njs.gif?dcsuri=/nojavascript&amp;amp;WT.js=No" /&gt;&lt;/div&gt;</noscript>
+
+
+
+
+
+
+
+
+
+<noscript>
+  &lt;a href="http://www.omniture.com" title="Web Analytics"&gt;
+    &lt;img src="//msstonojsmsdn.112.2o7.net/b/ss/msstonojsmsdn/1/H.20.2--NS/0" height="1" width="1" border="0" alt="" /&gt;
+  &lt;/a&gt;
+</noscript>
+            
+
+
+
+
+<div id="globalRequestVerification">
+    <input name="__RequestVerificationToken" type="hidden" value="0eCq_2V59Wo2mbcZKOeTz23Rk3oQmYMBwSck2Z73MO8DdnIe5yDy3hgP-PxgjXCnLUaObSLLiIPMYh1O5PlMKq7S2zY1">
+</div>
+
+
+        </div>
+
+        
+        
+        
+        
+    <script type="text/javascript" class="mtps-injected">
+/*<![CDATA[*/
+(function(window,document){"use strict";function preload(scripts){for(var result=[],script,e,i=0;i<scripts.length;i++)script=scripts[i],script.hasOwnProperty("url")&&(e=document.createElement("script"),e.src=script.url,script.throwaway=e),result.push(script);return result}function inject(scripts,index){var script,elem;if(index>=scripts.length){delete mtps.injectScripts;return}script=scripts[index];elem=document.createElement("script");elem.className="mtps-injected";elem.async=!1;var isLoaded=!1,timeoutId=0,injectNextFnName="",injectNext=elem.onerror=function(){isLoaded||(isLoaded=!0,inject(scripts,index+1),window.clearTimeout(timeoutId),elem.onload=elem.onerror=elem.onreadystatechange=null,injectNextFnName&&delete mtps[injectNextFnName],elem.removeEventListener&&elem.removeEventListener("load",injectNext,!1))};elem.addEventListener?elem.addEventListener("load",injectNext,!1):elem.readyState==="uninitialized"?elem.onreadystatechange=function(){(this.readyState==="loaded"||this.readyState==="complete")&&injectNext()}:elem.onload=injectNext;script.hasOwnProperty("url")?(timeoutId=window.setTimeout(injectNext,12e4),elem.src=script.url):(injectNextFnName="_injectNextScript_"+index,mtps[injectNextFnName]=injectNext,timeoutId=window.setTimeout(injectNext,2e3),elem.text="try {\n"+script.txt+"\n} finally { MTPS."+injectNextFnName+" && MTPS."+injectNextFnName+"(); }");parent.appendChild(elem)}var mtps=window.MTPS||(window.MTPS={}),parent=document.getElementsByTagName("head")[0];mtps.injectScripts=function(scripts){inject(preload(scripts),0)}})(window,document);
+MTPS.injectScripts([
+	{ txt: "/**/\r\n(window.MTPS || (window.MTPS = {})).cdnDomains || (window.MTPS.cdnDomains = { \r\n\t\"image\": \"https://i-msdn.sec.s-msft.com\", \r\n\t\"js\": \"https://i2-msdn.sec.s-msft.com\", \r\n\t\"css\": \"https://i-msdn.sec.s-msft.com\", \r\n\t\"xap\": \"https://i-vso.sec.s-msft.com\"\r\n});\r\n/**/" },
+	{ url: "https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js" },
+	{ txt: "//\n  var literalNormalizedUrl = \u0027/en-us/library/windows/desktop/dd562388(l=en-us,v=vs.85).aspx\u0027;\n  var wt_nvr_ru = \u0027WT_NVR_RU\u0027;\n  var wt_fpcdom = \u0027.microsoft.com\u0027;\n  var wt_domlist = \u0027msdn.microsoft.com\u0027;\n  var wt_pathlist = \u0027\u0027;\n  var wt_paramlist = \u0027DCSext.mtps_devcenter\u0027;\n  var wt_siteid = \u0027MSDN\u0027;\n  var gDomain = \u0027m.webtrends.com\u0027;\n  var gDcsId = \u0027dcsmgru7m99k7mqmgrhudo0k8_8c6m\u0027;\n  var gFpc = \u0027WT_FPC\u0027;\n\n\n\n  if (document.cookie.indexOf(gFpc + \"=\") == -1) {\n    var wtidJs = document.createElement(\"script\");\n    wtidJs.src = \"//\" + gDomain + \"/\" + gDcsId + \"/wtid.js\";\n    document.getElementsByTagName(\"head\")[0].appendChild(wtidJs);\n  }\n\n\n\n  var detectedLocale = \u0027en-us\u0027;\n  var wtsp = \u0027_msdn_\u0027;\n  var gTrackEvents = \u00270\u0027;\n/**/" },
+	{ txt: "/**/\n  var omni_guid = \"aa1e6935-26bb-4755-95a4-5df6a05b8b4f\";\n/**/" },
+	{ txt: "//\n\n            window.appInsightsId = \u002760854590-027a-4ae4-98be-2741a40f355f\u0027;\n            //" },
+	{ url: "https://i2-msdn.sec.s-msft.com/Combined.js?resources=0:Utilities,1:Rating,0:Topic,2:webtrendsscript,3:omni_rsid_MSDN,4:WEDCS,0:AppInsightsPerf,5:Toc,1:SearchBox;/Areas/Epx/Content/Scripts:0,/Areas/Epx/Themes/Base/Content:1,/Areas/Global/Content/Webtrends/resources:2,/Areas/Global/Content/Omniture/resources/MSDN:3,/Areas/Library/Themes/Base/Content:4,/Areas/Library/Content:5\u0026amp;hashKey=2C94BE13776504EBA75F7FEAB0D70F9F\u0026amp;v=F44C832770555975B902FE3A60006D97" },
+	{ url: "https://i1.services.social.microsoft.com/search/Widgets/SearchBox.jss?boxid=HeaderSearchTextBox\u0026btnid=HeaderSearchButton\u0026brand=MSDN\u0026loc=en-us\u0026Refinement=181\u0026focusOnInit=false\u0026iroot=windows%2fdesktop\u0026emptyWatermark=true\u0026searchButtonTooltip=Search" },
+	{ url: "https://i2-msdn.sec.s-msft.com/Areas/Epx/Themes/Windows/Content/TocDropDown.js" },
+	{ url: "https://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js" },
+	{ url: "https://i2-msdn.sec.s-msft.com/Combined.js?resources=0:CommunityContent,0:LibraryMemberFilter,1:Toc_Fixed,2:SelectLocaleFromPopUp,1:CodeSnippet,1:TopicNotInScope,1:CollapsibleArea,1:VersionSelector,1:SurveyBroker;/Areas/Library/Content:0,/Areas/Epx/Content/Scripts:1,/Areas/Epx/Themes/Base/Content:2\u0026amp;hashKey=7806B2478E0DC4023BB82CB6D0A73A70\u0026amp;v=F44C832770555975B902FE3A60006D97" },
+	{ txt: "$(document).ready(function() {\n        try {\n            var token = $(\"#globalRequestVerification input[name=\u0027__RequestVerificationToken\u0027]\").clone();\n            $(\"#siteFeedbackForm\").append(token);\n        } catch(err) {\n            \n        }\n    });" }
+]);
+
+/*]]>*/
+</script>
+<script src="./AxWindowsMediaPlayer Object (VB and C#) (Windows)_files/broker-config.js"></script></body></html>

@@ -1,0 +1,10 @@
+C:\Users\Chathuranga\Desktop\howto_net_get_cpu_serial_number_id\bin\Debug\howto_net_get_cpu_serial_number_id.exe
+C:\Users\Chathuranga\Desktop\howto_net_get_cpu_serial_number_id\bin\Debug\howto_net_get_cpu_serial_number_id.pdb
+C:\Users\Chathuranga\Desktop\howto_net_get_cpu_serial_number_id\bin\Debug\howto_net_get_cpu_serial_number_id.xml
+C:\Users\Chathuranga\Desktop\howto_net_get_cpu_serial_number_id\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chathuranga\Desktop\howto_net_get_cpu_serial_number_id\obj\Debug\howto_net_get_cpu_serial_number_id.Form1.resources
+C:\Users\Chathuranga\Desktop\howto_net_get_cpu_serial_number_id\obj\Debug\howto_net_get_cpu_serial_number_id.Resources.resources
+C:\Users\Chathuranga\Desktop\howto_net_get_cpu_serial_number_id\obj\Debug\howto_net_get_cpu_serial_number_id.vbproj.GenerateResource.Cache
+C:\Users\Chathuranga\Desktop\howto_net_get_cpu_serial_number_id\obj\Debug\howto_net_get_cpu_serial_number_id.exe
+C:\Users\Chathuranga\Desktop\howto_net_get_cpu_serial_number_id\obj\Debug\howto_net_get_cpu_serial_number_id.xml
+C:\Users\Chathuranga\Desktop\howto_net_get_cpu_serial_number_id\obj\Debug\howto_net_get_cpu_serial_number_id.pdb

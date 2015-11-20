@@ -1,0 +1,13 @@
+C:\Users\Chathuranga\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chathuranga\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Chathuranga\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Chathuranga\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\Chathuranga\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\Chathuranga\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\Chathuranga\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\Chathuranga\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\Chathuranga\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\Chathuranga\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb

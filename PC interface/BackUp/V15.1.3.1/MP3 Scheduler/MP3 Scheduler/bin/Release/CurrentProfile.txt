@@ -1,0 +1,7 @@
+National Anthem10$NA124$2:52:00$11$21$31$41$51$61$71$F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\Audio\Leavin.mp3
+National Anthem$NA123$7:43:00$11$21$31$41$51$61$71$F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\Audio\Leavin.mp3
+National Anthem2$NA124$7:43:00$11$21$31$41$51$61$71$F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\Audio\Leavin.mp3
+National Anthem3$NA124$7:43:00$11$21$31$41$51$61$71$F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\Audio\Leavin.mp3
+National Anthem4$AAAA$12:25:00$10$20$30$41$51$60$70$F:\MEDIA\Songs\a.mp3
+National Anthem5$NA124$7:43:00$11$21$31$41$51$61$71$F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\Audio\Leavin.mp3
+National Anthem9$NA124$7:43:00$11$21$31$41$51$61$71$F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\Audio\Leavin.mp3

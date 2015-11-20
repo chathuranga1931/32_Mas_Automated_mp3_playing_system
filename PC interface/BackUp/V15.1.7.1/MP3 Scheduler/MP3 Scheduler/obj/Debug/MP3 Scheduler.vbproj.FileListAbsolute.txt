@@ -1,0 +1,36 @@
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\bin\Debug\MP3 Scheduler.exe
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\bin\Debug\MP3 Scheduler.pdb
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\bin\Debug\MP3 Scheduler.xml
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\ResolveAssemblyReference.cache
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3_Scheduler.Form1.resources
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3_Scheduler.Resources.resources
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3 Scheduler.vbproj.GenerateResource.Cache
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3 Scheduler.exe
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3 Scheduler.xml
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3 Scheduler.pdb
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3_Scheduler.Add_Event.resources
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3_Scheduler.Edit_Event.resources
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\bin\Debug\Interop.WMPLib.dll
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\bin\Debug\AxInterop.WMPLib.dll
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\Interop.WMPLib.dll
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\AxInterop.WMPLib.dll
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3 Scheduler.vbproj.ResolveComReference.cache
+F:\ELECTRONIC\2015\Projects\32.Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3_Scheduler.PlayList.resources
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\Interop.WMPLib.dll
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\AxInterop.WMPLib.dll
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3 Scheduler.vbproj.ResolveComReference.cache
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3 Scheduler.exe
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3 Scheduler.xml
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3 Scheduler.pdb
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\bin\Debug\MP3 Scheduler.exe
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\bin\Debug\MP3 Scheduler.pdb
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\bin\Debug\MP3 Scheduler.xml
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\bin\Debug\Interop.WMPLib.dll
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\bin\Debug\AxInterop.WMPLib.dll
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\ResolveAssemblyReference.cache
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3_Scheduler.Add_Event.resources
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3_Scheduler.Edit_Event.resources
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3_Scheduler.Form1.resources
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3_Scheduler.Resources.resources
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3_Scheduler.PlayList.resources
+F:\ELECTRONIC\2015\Projects\32. Mars Automated mp3 playing system\PC interface\ver2\MP3 Scheduler\MP3 Scheduler\obj\Debug\MP3 Scheduler.vbproj.GenerateResource.Cache
